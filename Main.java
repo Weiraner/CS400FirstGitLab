@@ -1,3 +1,9 @@
+// == CS400 Spring 2024 File Header Information ==
+// Name: Shiya Su
+// Email: ssu56@wisc.edu
+// Lecturer: Jiazhen Zhou
+// csAccountUserName: shiya
+// Notes to Grader: none
 /*
  * Test the use of the Color method
  */
