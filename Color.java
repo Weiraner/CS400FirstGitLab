@@ -25,9 +25,11 @@ public class Color{
 	 * 	and different from the exisitng color before making the change
 	 */
 	public boolean  changeColor(String newColor){
-		this.color = newColor;
-
-		return true;
+	        if(!newColor.equals(this.color) && isColorValid(newColor)){
+	            this.color = newColor;
+	            return true;
+	        }
+		return false;
 	}
 
 	public boolean isColorValid(String inputColor){
